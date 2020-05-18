@@ -20,6 +20,7 @@ from django.contrib.auth import views as auth_views
 from accounts.views import *
 from django.conf import settings
 from django.conf.urls.static import static
+from handy.urls import *
 
 
 urlpatterns = [

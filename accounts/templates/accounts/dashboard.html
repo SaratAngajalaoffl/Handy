@@ -4,7 +4,7 @@
 
 <head>
     {% load static %}
-    <link rel="stylesheet" type="text/css" href="{% static 'accounts/dashboard.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'accounts/css/dashboard.css' %}">
 </head>
 
 <section class="organic-breadcrumb" id="productpage_header">
@@ -37,7 +37,7 @@
                 </a>
             </div>
             <div class="vertical2">
-                <a href="" class="links">
+                <a href="{% url 'cartit' %}" class="links">
                     <img class="pic" src="{% static 'accounts/images/cart.png' %}"
                         alt="{% static 'accounts/images/cart.png' %}" width="150" height="150">
                 </a>

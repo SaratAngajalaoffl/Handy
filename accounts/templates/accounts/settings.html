@@ -5,7 +5,7 @@
 
 <head>
     {% load static %}
-    <link rel="stylesheet" type="text/css" href="{% static 'accounts/settings.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'accounts/css/settings.css' %}">
 </head>
 
 <section class="organic-breadcrumb" id="productpage_header">
@@ -26,7 +26,8 @@
     <div class="links">
         <div class="div1">
             <a href="{% url 'profile_picture' %}" class="example">
-                <img class="pic" src="{{user.profile.profile_pic.url}}" alt="Change Profile Picture" width="250" height="250">
+                <img class="pic" src="{{user.profile.profile_pic.url}}" alt="Change Profile Picture" width="250"
+                    height="250">
                 <div class="content">
                     <div class="text">Change<br>
                         Profile<br>
@@ -47,6 +48,13 @@
             <button type="submit">Make Changes</button>
         </form>
     </div>
+
+    <script>
+    </script>
+
+    <!-- {% load static %}
+    <script src="{% static 'account/js/dropdown.js' %}"></script> -->
+
 </section>
 
 {% endblock content %}

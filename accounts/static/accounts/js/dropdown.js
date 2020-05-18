@@ -1,0 +1,1 @@
+document.body.section.text.innerHTML = 'Change <br>Picture';
