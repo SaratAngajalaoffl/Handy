@@ -3,3 +3,5 @@ There is a file named resources.txt
 I have added all the packages that have been used till now for the project
 
 Moving further if you are using any packages that are not already included in the resources file,add them to it.
+
+just run pip install resources.txt if you are having any errors while running the project
